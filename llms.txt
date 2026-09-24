@@ -1,0 +1,32 @@
+# AI Ready Colombo
+
+AI Ready Colombo is a free, self-paced practical AI literacy pilot for students, recent graduates and early-career professionals. It teaches learners how to use generative AI with clearer prompts, better verification, stronger privacy habits and human judgment.
+
+## Core learning pages
+- Home: /index.html
+- Start and baseline: /start.html
+- Module 1 — Understanding AI: /modules/module-1.html
+- Module 2 — Working With AI / CTCO prompting: /modules/module-2.html
+- Module 3 — AI for Real Work: /modules/module-3.html
+- Module 4 — Responsible AI: /modules/module-4.html
+- Module 5 — Build Your AI Workflow: /modules/module-5.html
+- Your Data & AI: /privacy.html
+- Toolkit: /toolkit.html
+- Final assessment: /final-assessment.html
+- Completion: /completion.html
+- About: /about.html
+- Privacy Notice: /privacy-notice.html
+- AI Disclosure: /ai-disclosure.html
+
+## Core framework
+Define. Prompt. Inspect. Verify. Decide.
+
+## Prompting framework
+CTCO means Context, Task, Constraints and Output.
+
+## Toolkit
+The downloadable toolkit contains six practical guides plus a contents sheet covering AI basics, prompt templates, verification, privacy, study workflows and job search.
+
+## Attribution
+AI Ready Colombo is a project by Global Shapers Colombo Hub. Developed by Ravindu Nawanjana.
+LinkedIn: https://www.linkedin.com/in/ravindunawanjana/

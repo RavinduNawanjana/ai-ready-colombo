@@ -1,0 +1,89 @@
+{
+  "site": "AI Ready Colombo",
+  "tagline": "Practical AI skills for a changing world.",
+  "project_by": "Global Shapers Colombo Hub",
+  "version": "Final pilot build with privacy and AI disclosure",
+  "framework": [
+    "Define",
+    "Prompt",
+    "Inspect",
+    "Verify",
+    "Decide"
+  ],
+  "prompting_framework": {
+    "name": "CTCO",
+    "parts": [
+      "Context",
+      "Task",
+      "Constraints",
+      "Output"
+    ]
+  },
+  "pages": [
+    {
+      "url": "index.html",
+      "topic": "Practical AI literacy overview"
+    },
+    {
+      "url": "start.html",
+      "topic": "Baseline and course start"
+    },
+    {
+      "url": "modules/module-1.html",
+      "topic": "Understanding generative AI"
+    },
+    {
+      "url": "modules/module-2.html",
+      "topic": "CTCO prompting"
+    },
+    {
+      "url": "modules/module-3.html",
+      "topic": "AI for real work"
+    },
+    {
+      "url": "modules/module-4.html",
+      "topic": "Responsible AI, verification and privacy"
+    },
+    {
+      "url": "modules/module-5.html",
+      "topic": "Personal AI workflow"
+    },
+    {
+      "url": "privacy.html",
+      "topic": "AI data controls and safer sharing"
+    },
+    {
+      "url": "toolkit.html",
+      "topic": "Downloadable AI literacy toolkit"
+    },
+    {
+      "url": "final-assessment.html",
+      "topic": "Final assessment and feedback"
+    },
+    {
+      "url": "completion.html",
+      "topic": "Course completion and toolkit download"
+    },
+    {
+      "url": "about.html",
+      "topic": "Pilot purpose and design"
+    },
+    {
+      "url": "site-map.html",
+      "topic": "Complete site navigation"
+    },
+    {
+      "url": "privacy-notice.html",
+      "topic": "Website privacy notice, local storage, forms and certificate data"
+    },
+    {
+      "url": "ai-disclosure.html",
+      "topic": "Disclosure of AI-assisted project development and human review"
+    }
+  ],
+  "forms_config": "assets/js/config.js",
+  "developed_by": {
+    "name": "Ravindu Nawanjana",
+    "linkedin": "https://www.linkedin.com/in/ravindunawanjana/"
+  }
+}
