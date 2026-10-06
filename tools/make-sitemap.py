@@ -28,7 +28,6 @@ pages = [
     'completion.html',
     'about.html',
     'privacy-notice.html',
-    'ai-disclosure.html',
     'site-map.html',
 ]
 

@@ -51,42 +51,4 @@
     render('learn');
   });
 
-  const privacy = {
-    chatgpt: {
-      title:'ChatGPT',
-      path:'Settings → Data Controls → “Improve the model for everyone”',
-      note:'Turning this off is about model improvement. Chat history and memory are separate controls. Temporary Chat is another privacy option.',
-      url:'https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt'
-    },
-    claude: {
-      title:'Claude',
-      path:'Settings → Privacy → “Help Improve our AI models”',
-      note:'For eligible consumer accounts, model-improvement settings can be managed separately from normal chat use. Incognito chats have separate handling.',
-      url:'https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings'
-    },
-    gemini: {
-      title:'Gemini',
-      path:'Gemini Apps Activity → “Keep Activity”',
-      note:'Activity settings affect how future chats are stored and used. Google describes some retention and feedback exceptions, so read the current help page.',
-      url:'https://support.google.com/gemini/answer/13594961'
-    },
-    copilot: {
-      title:'Microsoft Copilot',
-      path:'Settings → Personalization / privacy controls',
-      note:'Microsoft changed Copilot privacy controls in August 2026. In the updated consumer app, controls include memory, shared experiences, chat history, web search and ad personalization; Microsoft says prompts, responses and file contents in the updated app are not used to train foundation models. Older app versions use different controls.',
-      url:'https://support.microsoft.com/en-us/privacy/microsoft-copilot/privacy-controls'
-    }
-  };
-  document.querySelectorAll('[data-privacy-switcher]').forEach(widget => {
-    const panel = widget.querySelector('[data-privacy-panel]');
-    const render = key => {
-      const d = privacy[key];
-      panel.innerHTML = `<h3>${d.title}</h3><p><strong>Where to look:</strong> ${d.path}</p><p>${d.note}</p><a class="btn btn-light" target="_blank" rel="noopener" href="${d.url}">Official help page ↗</a>`;
-    };
-    widget.querySelectorAll('[data-provider]').forEach(btn => btn.addEventListener('click', () => {
-      widget.querySelectorAll('[data-provider]').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active'); render(btn.dataset.provider);
-    }));
-    render('chatgpt');
-  });
 })();

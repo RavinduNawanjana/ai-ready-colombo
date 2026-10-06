@@ -16,7 +16,6 @@ AI Ready Colombo is a free, self-paced practical AI literacy pilot for students,
 - Completion: /completion.html
 - About: /about.html
 - Privacy Notice: /privacy-notice.html
-- AI Disclosure: /ai-disclosure.html
 
 ## Core framework
 Define. Prompt. Inspect. Verify. Decide.

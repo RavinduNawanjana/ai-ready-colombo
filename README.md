@@ -49,7 +49,6 @@ These resources are designed to remain useful after the learning modules are com
 ├── toolkit.html
 ├── privacy.html
 ├── privacy-notice.html
-├── ai-disclosure.html
 ├── final-assessment.html
 ├── completion.html
 ├── site-map.html
@@ -70,9 +69,9 @@ These resources are designed to remain useful after the learning modules are com
 └── content-map.json
 ```
 
-## Privacy and AI disclosure
+## Privacy
 
-`privacy.html` explains practical privacy concepts for learners. `privacy-notice.html` explains how the website, assessments and certificate workflow handle information. `ai-disclosure.html` explains how generative AI supported parts of the project’s development and where human review remains responsible.
+`privacy.html` explains practical privacy concepts for learners. `privacy-notice.html` explains how the website, assessments and certificate workflow handle information.
 
 ## Project
 
